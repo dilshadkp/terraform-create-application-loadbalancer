@@ -6,6 +6,8 @@ In this Terraform script, I am creating an **Application Load Balancer** which i
 
 In This Application LoadBalancer, the traffic reaching to the Loadbalancer will split into 3 Target groups as below:
 
+![](https://i.ibb.co/RbmfDJd/alb.png)
+
 1. if the web request is to **example.tld**, the traffic will go to first target group
 2. if the web request is to **example.tld/path1**, the traffic will go to second target group
 3. if the web request is to **example.tld/path2**, the traffic will go to third target group
